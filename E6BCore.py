@@ -48,13 +48,15 @@ class E6BCore:
 
     def fltPlanning(self, distance): # unit of distance should be naunical miles
         """calculate the time and fuel consumption"""
-        self.calcPressureAltitude()
-        self.calcDensityAltitude()
-        self.calcTAS()
-        self.calcWindCorr()
+        #self.calcPressureAltitude()
+        #self.calcDensityAltitude()
+        #self.calcTAS()
+        #self.calcWindCorr()
 
         time = distance/self.groundSpeed*60.
         fuelUse = self.fuelRate*time/60.
+
+        return (time, fuelUse)
     
     def windDecompose(self):
         """get the head and cross wind component"""

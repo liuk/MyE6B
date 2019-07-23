@@ -14,9 +14,9 @@ class E6BCore:
         self.fuelRate = 7.8           # fuel usage, unit is gal/h
         self.KIAS = 100               # indicated airspeed, unit is knot
         self.KTAS = 100               # true airspeed, unit is knot
-        self.alt_abs = 7500           # absolute altitude, unit is feet
-        self.alt_pre = 7500           # pressure altitude, unit is feet
-        self.alt_den = 7500           # density altitude, unit is feet
+        self.alt_abs = 7300           # absolute altitude, unit is feet
+        self.alt_pre = 7300           # pressure altitude, unit is feet
+        self.alt_den = 7300           # density altitude, unit is feet
         self.temp = 15                # outside temperature, unit is celcius
         self.altimeter = 29.92        # altimeter setting, unit is inch Hg
         self.windDir = 0              # wind true direction, unit is degree
